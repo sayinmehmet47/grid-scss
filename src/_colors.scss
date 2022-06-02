@@ -1,0 +1,21 @@
+@each $key , $value in $colors {
+  .text-#{$key}{
+    color: $value;
+  }
+  .bg-#{$key}{
+    background-color: $value;
+  }
+
+  //lightened
+  @for $i from 1 to 5{
+      .text-#{$i}-light-#{$key}{
+        color:mix($value, $white, $i*10%);
+      }
+      .bg-#{$key}-light-#{$i}{
+        background-color:mix($value, $white, $i*10%);
+      }
+  }
+
+
+}
+

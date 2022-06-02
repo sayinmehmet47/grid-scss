@@ -1,0 +1,40 @@
+
+//variables
+@import "variable";
+
+
+
+
+// base and layouts
+@import "base";
+@import "breakpoints";
+@import "grid";
+
+
+
+//colors
+@import "colors";
+
+
+
+//components
+@import "./components/card";
+@import "./components/button";
+
+
+//utilities(margin, padding, border, font, etc)
+
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+    padding: 0; 
+}
+
+.header{
+    background-color: $primary;
+    color: $secondary;
+   
+}

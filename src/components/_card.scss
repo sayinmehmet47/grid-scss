@@ -1,0 +1,22 @@
+
+.card{
+    display: block;
+    padding: $base-padding;
+    border:$base-border-thickness solid $secondary;
+    box-shadow: $base-box-shadow;
+    border-radius: $base-border-radius/2;
+
+    .card-title{
+        font-size: $base-size-large;
+        font-weight: bold;
+        margin-bottom: $base-margin;
+    }
+
+    .card-body{
+        font-size: $base-font-size;
+        a{
+            text-decoration: underline;
+        }
+    }
+}
+
