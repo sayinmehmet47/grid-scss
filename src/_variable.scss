@@ -1,36 +1,82 @@
-//theme colors
 
-$primary:#00a8ff;
-$secondary:#f5f5f5;
-$error:#ff5252;
-$success:#4caf50;
-$warning:#ffeb3b;
-$info:#2196f3;
-$white:#fff;
+
+
+//palette colors
+
+$Y800: #664400;
+$Y600: #996600;
+$Y400: #cc8800;
+$Y200: #fec048;
+$Y100: #ffe4ad;
+$Y50: #fff5e0;
+$P800: #29204b;
+$P600: #422E94;
+$P400: #6245d9;
+$P200: #8b74e7;
+$P100: #CEC2ff;
+$P50: #EBE5ff;
+$B800: #094652;
+$B600: #0C5B6E;
+$B400: #137790;
+$B200: #45ABC4;
+$B100: #B4E5EE;
+$B50: #DEF3f8;
+
+//Neutral palette
+$N100: #f7f6f9;
+$N200: #e8e7e4;
+$N300: #d5d4dc;
+$N400: #b2b0bc;
+$N500: #908e9a;
+$N600: #6f6d79;
+$N700: #4f4d57;
+$N800: #2f2d37;
+$N900: #100f16;
+$N000: #ffffff;
+
+$elevation8: 0px 4px 8px rgba(16, 15, 22, 0.06);
+$elevation12: 0px 6px 12px rgba(16, 15, 22, 0.06);
+$elevation24: 0px 12px 24px rgba(16, 15, 22, 0.08);
+$elevation48: 0px 24px 48px rgba(16, 15, 22, 0.1);
+
+
+//support palette
+
+//error palette
+$R800: #7A1000;
+$R400: #EB1F00;
+$R200: #FF6952;
+$R100: #FFB8AD;
+$R50: #FFE9E6;
+
+
+//warning palette
+$O800: #612D00;
+$O400: #B75500;
+$O200: #FF9A42;
+$O100: #FFCA9B;
+$O50: #FFF0E3;
+
+//success palette
+$G800: #19311E;
+$G400: #00A91C;
+$G200: #7FDD89;
+$G100: #B7F5BD;
+$G50: #E3F5E1;
+
 
 
 //color palette
 $colors: (
-    primary: $primary,
-    secondary: $secondary,
-    error: $error,
-    success: $success,
-    warning: $warning,
-    info: $info,
-    white: $white,
-    blue: #00a8ff,
-    red: #ff5252,
-    green: #4caf50,
-    yellow: #ffeb3b,
-    purple: #9c27b0,
-    pink: #e91e63,
-    teal: #009688,
-    orange: #ff9800,
-    brown: #795548,
-    gray: #9e9e9e,
-    black: #212121,
-
-
+    error:$R800,
+    warning:$O800,
+    success:$G800,
+    yellow:$Y800,
+    purple:$P800,
+    blue:$B800,
+    neutral:$N100,
+    white:$N000,
+    black:$N900,
 );
 
 .test-button{
@@ -54,7 +100,7 @@ $base-box-shadow:1px 3px 5px rgba(0,2,0,0.10);
 
 //font
 $base-font-size:1rem;
-$base-size-small:$base-font-size*0.75;
+$base-size-small:14px;
 $base-size-medium:$base-font-size*1.25;
 $base-size-large:$base-font-size*1.5;
 $base-size-xlarge:$base-font-size*2;

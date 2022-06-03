@@ -1,10 +1,13 @@
 
+
+
 .card{
     display: block;
     padding: $base-padding;
-    border:$base-border-thickness solid $secondary;
+    border:$base-border-thickness solid $Y400;
     box-shadow: $base-box-shadow;
     border-radius: $base-border-radius/2;
+    height: 220px;
 
     .card-title{
         font-size: $base-size-large;

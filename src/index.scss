@@ -24,7 +24,7 @@
 
 //utilities(margin, padding, border, font, etc)
 
-
+@import "./utilities";
 
 
 * {
@@ -34,7 +34,7 @@
 }
 
 .header{
-    background-color: $primary;
-    color: $secondary;
+    background-color: $Y200;
+    color: $N200;
    
 }

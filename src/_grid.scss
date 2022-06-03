@@ -1,9 +1,9 @@
 $grid-columns: 12;
 $grid-gaps: (
   "0": 0,
-  "1": 10px,
-  "2": 20px,
-  "3": 30px,
+  "1": 8px,
+  "2": 12px,
+  "3": 24px,
 );
 $layout-values: flex-start, flex-end, center, space-between, space-around;
 
@@ -25,10 +25,10 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
   .gap-#{$key} > * {
     padding: $val;
   }
-  .gap-#{$key} {
-    margin-left: -$val;
-    margin-right: -$val;
-  }
+  // .gap-#{$key} {
+  //   margin-left: -$val;
+  //   margin-right: -$val;
+  // }
 }
 
 // justify content classes
@@ -44,7 +44,7 @@ $layout-values: flex-start, flex-end, center, space-between, space-around;
     .col-#{$i}-xs {
       box-sizing: border-box;
       flex-grow: 0;
-      width: $i * 100%/$grid-columns
+      width: $i * 100%/$grid-columns;
     }
   }
 }
